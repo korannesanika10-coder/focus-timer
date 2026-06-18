@@ -1,4 +1,8 @@
 import { useState, useEffect } from "react";
+import Timer from "./components/Timer";
+import SessionHistory from "./components/Sessionhistory";
+import ThemeToggle from "./components/Themetoggle";
+
 
 function App() {
   const [seconds, setSeconds] = useState(0);
